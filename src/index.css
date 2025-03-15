@@ -1,0 +1,37 @@
+:root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(rgba(4, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
+              url('./assets/freepik__expand__90336.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+
+label{
+  color: white;
+}
+

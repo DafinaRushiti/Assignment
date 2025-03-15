@@ -1,0 +1,69 @@
+:root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(rgba(4, 0, 0, 0.5), rgba(255, 255, 255, 0.5)),
+              url("./assets/freepik__expand__90336.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.card {
+  padding: 2em;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(118, 90, 108);
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
